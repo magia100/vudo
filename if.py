@@ -10,11 +10,10 @@ else:
      print('More')
 
 
-words = ['cat','dog','window','defenestrate']
+words = ['cat','dog','window','defenestrate','castrate','hipermatopeya']
 print ("words: ", words)
 for w in words[:]:
     if len(w) > 6:
-        words.insert(0,w)
+        words.insert(-1,w)
 
 print ("words2: ", words)
-       
